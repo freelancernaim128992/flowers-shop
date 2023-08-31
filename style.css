@@ -6,11 +6,15 @@ body {
 }
 
 section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
 }
 
 img {
@@ -22,10 +26,15 @@ p {
     color: grey;
 }
 
-.flex-container {
-    display: flex;
+.container {
     width: 1170px;
     margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .btn-style {
@@ -46,5 +55,51 @@ header {
 
 .header-desc {
     width: 50%;
-    margin-right: 100px;
 }
+
+/* Featured Section Style  */
+.section-heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.flower-box {
+    text-align: center;
+}
+
+.flw-img {
+    height: 300px;
+    padding: 30px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 300px
+}
+
+.flw-bg-1 {
+    background-color: #f1dde7;
+}
+
+.flw-bg-2 {
+    background-color: #d9eff0;
+}
+
+.flw-bg-3 {
+    background-color: #e3ebdb;
+}
+
+/* Discount Section Style  */
+.discount-bg {
+    background-color: #fdf6f8;
+}
+
+.red-text {
+    color: #e55473;
+}
+
+.discount-desc {
+    width: 500px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Social Section Style  */
