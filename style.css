@@ -27,13 +27,13 @@ p {
 }
 
 .container {
-    width: 1170px;
+    width: 1100px;
     margin: auto;
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -48,9 +48,22 @@ p {
 }
 
 /* Header Section Style  */
+.menu-container {
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.menu-container a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #111010;
+}
+
 header {
     background-color: #fceef1;
-    padding-top: 80px;
 }
 
 .header-desc {
